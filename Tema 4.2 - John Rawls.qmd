@@ -8,7 +8,7 @@ format:
       - left=20mm
       - heightrounded
     fontsize: 12pt
-    mainfont: Calibri
+    mainfont: Arial
     documentclass: scrartcl
     papersize: a4
     toc-title: "Innholdsfortegnelse"
@@ -53,7 +53,7 @@ nocite: |
 
 John Rawls var en amerikansk filosof som er mest kjent for sitt verk *A Theory of Justice* fra 1971. I dette verket begynner Rawls å utvikle en teori om rettferdighet som kan fungere som et alternativ til utilitarisme og andre tidligere teorier om rettferdighet. Rawls bygger videre på grunnleggende ideer fra kontraktsteorien, og han forsøker å utvikle en teori om rettferdighet som er uavhengig av konkrete moralske og politiske tradisjoner [@ex_phil_bok, s 181].
 
-Rawls’ kontraktsteori i motsetning til Hobbes, Locke og Rousseau har et abstrakt utgangspunkt. Kontraktsteori hans er hypotetisk, og starter som et tankeeksperiment. Denne hypotetiske situasjonen kaller Rawls for den opprinnelige posisjonen. I den opprinnelige posisjonen er personene som skal inngå kontrakten, plassert bak et slør av uvitenhet. Dette betyr at de ikke vet noe om sin egen posisjon i samfunnet, sine egne evner, interesser og hvordan status de har [@ex_phil_bok, s 181].
+Rawls’ kontraktsteori i motsetning til Hobbes, Locke og Rousseau har et abstrakt utgangspunkt. Kontraktsteorien hans er hypotetisk, og starter som et tankeeksperiment. Denne hypotetiske situasjonen kaller Rawls for den opprinnelige posisjonen. I den opprinnelige posisjonen er personene som skal inngå kontrakten, plassert bak et slør av uvitenhet. Dette betyr at de ikke vet noe om sin egen posisjon i samfunnet, sine egne evner, interesser og hvordan status de har [@ex_phil_bok, s 181].
 
 Dette mener Rawls gir et godt utgangspunkt for å utvikle prinsipper for et rettferdig samfunn. Bak et slør av uvitenhet vil personene i den opprinnelige posisjonen være tvunget til å tenke på hva som er rettferdig for alle, og ikke bare hva som er best for seg selv. Sløret av uvitenhet vil også skjule informasjon som kan gi personene en urettferdig fordel, og ta bort prinsipper som er urettferdige for andre i forhandlingene [@ex_phil_bok, s 182].
 
