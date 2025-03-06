@@ -1,0 +1,57 @@
+---
+title: "Eriks Death counter"
+format: pdf
+editor: visual
+---
+
+Margit - 50 deaths
+Radahn - 50+ deaths?
+Morgott - 17 deaths
+Godfrey - 13 deaths
+-------- Etter mimic
+Commander Niall - 2 deaths
+Borealis the Freezing Fog (drage I mountaintops freezing) - 7 deaths
+Fire Giant - 1 deaths
+Godskin Duo - 1 deaths
+Crucible knight random mob - 8 deaths
+Placidusax -  0, mimic carry mens han drakk sæd
+Enemy uten mimic -  4 deaths
+Maliketh  - 2 deaths
+Loretta - 1 death
+Malenia - 39 deaths før han brukte mimic og drakk sæd
+
+Total deaths: 155
+
+```{r}
+#Loading packages needed
+library(tidyverse)
+
+# Storing data in a tibble
+deaths <- tibble(
+  name = c("Margit", "Radahn", "Morgott", "Godfrey", "Commander Niall", "Borealis", "Fire Giant", "Godskin Duo", "Crucible knight", "Placidusax", "Enemy uten mimic", "Maliketh", "Loretta", "Malenia"),
+  deaths = c(50, 50, 17, 13, 2, 7, 1, 1, 8, 0, 4, 2, 1, 39)
+)
+
+# Summing the total deaths
+total_deaths <- deaths %>%
+  summarise(deaths = sum(deaths)) %>%
+# adding total deaths to the tibble and naming it total deaths
+  mutate(name = "Total deaths") %>%
+  select(name, deaths) %>%
+  bind_rows(deaths, .)
+```
+
+```{r}
+# Creating a bar plot
+ggplot(total_deaths, aes(x = name, y = deaths)) +
+  geom_col(fill = "cornflowerblue", alpha = 0.8) +
+  geom_text(aes(label = deaths), vjust = -0.3, size = 3) +
+  labs(title = "Eriks Death counter",
+       x = "Bosses",
+       y = "Deaths") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  # making the bars go from lowest to highest
+  scale_x_discrete(limits = total_deaths$name[order(total_deaths$deaths)])
+```
+
