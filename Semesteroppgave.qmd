@@ -1,0 +1,187 @@
+---
+format: 
+  pdf:
+    include-before-body:
+      - dokumentobjekter/texstuff/forside_ex_phil.tex  
+    geometry:
+      - top=20mm
+      - left=20mm
+      - heightrounded
+    fontsize: 12pt
+    mainfont: Times New Roman
+    documentclass: scrartcl
+    papersize: a4
+    toc: false
+    toc-title: "Innholdsfortegnelse"
+    toccolor: black
+echo: false
+warning: false
+bibliography: dokumentobjekter/texstuff/references_ex_phil.bib
+csl: dokumentobjekter/texstuff/norsk-apa-manual.csl
+crossref: 
+  lof-title: "Figurliste"
+  fig-title: "Figur"
+  lot-title: "Tabelliste"
+  tbl-title: "Tabell"
+header-includes:
+  - \usepackage{wrapfig}
+  - \usepackage{subcaption}
+  - \usepackage{amsmath}
+  - \usepackage{cancel}
+  - \usepackage{hyperref}
+  - \usepackage{tikz}
+  - \usepackage{setspace}
+  - \setstretch{1.5}
+  - \usetikzlibrary{shapes.geometric, arrows, arrows.meta, positioning, calc}
+  - \usepackage{tabularx}
+  - \renewcommand{\maketitle}{}
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhf{} 
+  - \fancyhead[L]{\rightmark}
+  - \fancyhead[R]{\thepage}
+  - \fancyfoot[C]{\thepage}
+  - \usepackage{colortbl}
+  - \definecolor{cornflowerblue}{RGB}{100,149,237}
+  - \definecolor{darkblue}{RGB}{115,150,255}
+  - \definecolor{lighterblue}{RGB}{131, 191, 212} 
+  - \definecolor{lightblue}{RGB}{178,211,220}
+keep-tex: false
+nocite: |
+  @*
+---
+
+```{=tex}
+\hypersetup{linkcolor=black}
+\renewcommand{\contentsname}{Innholdsfortegnelse}
+\tableofcontents
+\hypersetup{linkcolor=blue}
+\newpage
+```
+# Informasjon
+
+1.2 Ordgrense
+
+Ordgrense: 1800-2200 ord, inkludert fotnoter, men ikke inkludert innholdsfortegnelse og referanseliste. Semesteroppgaver som er enten lengre eller kortere enn denne grensen vil bli trukket minimum 1 karakter.
+
+1.3 Avgrensing og fokus
+
+Oppgaveteksten skal i sin helhet diskuteres i semesteroppgaven. Så lenge oppgaveteksten besvares, er det en viss frihet til å sette søkelys på utvalgte tema.
+
+1.4 Layout
+
+Valg av layout, slik som forside, seksjonsoverskrifter og avsnittsstil vil normalt ikke tillegges noen vekt i vurderingen av semesteroppgaven.
+
+3 Utfyllende om kvalitetstegn ved eksamensbesvarelser
+
+Her følger en nærmere beskrivelse av egenskaper som er relevante for kvaliteten til semesteroppgaven.
+
+3.1 Språk
+
+Godt, tilgjengelig og presist språk, korrekt rettskriving og grammatikk, samt flyt i fremstillingen forventes.
+
+3.2 Litteratur- og kunnskapstilfang
+
+Det forventes at det kommer tydelig frem at studenten har satt seg inn i de temaene fra pensum og tilleggslitteraturen som er relevante for problemstillingen, slik besvarelsen har avgrenset den. Jo mer avansert litteraturen som brukes, jo mer aksept er det for feil og misforståelser i gjengivelsen. Henvis til kilder med god kvalitetssikring og unngå omfattende bruk av kilder utover tilleggslitteraturen.
+
+3.3 Selvstendig problemavgrensning
+
+Dersom oppgaven er utformet slik at det er behov for presisering og avgrensning av oppgaven, er regelen at presiseringer og avgrensinger gjøres i innledningen. Valg av avgrensning skal normalt begrunnes, Det er en styrke at avgrensingen viser kunnskap om temaene det avgrenses mot.
+
+3.4 Problemstyrt fremstilling
+
+Semesteroppgaven skal vektlegge aspektene ved kildematerialet som bidrar til å besvare oppgavens spørsmål. Semesteroppgaven skal ikke redegjøre for irrelevante poeng, eller inneholde poenger der relevansen ikke kommer tydelig frem. 3.5 Uenighetsorientering
+
+Dersom oppgaven, inkludert den oppgitte litteraturen, reiser ulike oppfatninger eller perspektiver, skal semesteroppgaven tydeliggjøre de mest sentrale uenighetene.
+
+3.6 Tydelig struktur
+
+Gode tekster har ett tema per avsnitt og unngår unødige gjentakelser. Semesteroppgaven skal være enhetlig. «Haleheng» som drøfter nye, men beslektede temaer, skal unngås, med mindre drøftelsen knyttes klart til resten av oppgaven. Det er normalt et kvalitetstegn at semesteroppgaven har krysshenvisninger som viser sammenheng mellom ulike elementer i teksten.
+
+3.7 Drøftende og problematiserende
+
+Det er en styrke at semesteroppgaven viser at én og samme tekst kan tolkes i ulike retninger. Det er også en styrke dersom den viser at én og samme teori kan gi argumenter for ulike konklusjoner. Argumentasjonen skal være balansert, i den forstand at den framviser både styrker og svakheter ved en hypotese eller en teori.
+
+Hvis oppgaven er utformet slik at man skal drøfte eller ta stilling til en problemstilling, skal det gis en selvstendig argumentasjon for konklusjonen som framlegges. Teorier bør relateres klart til problemstillingen, enten ved at de fremstilles underveis i en argumentasjon eller ved at det forklares hvordan stoffet vil bli brukt i den senere drøftelsen. Det er ofte en styrke å si noe om hvilke problemer en teori forsøker å løse, og i hvilken grad teorien lykkes i å løse disse problemene.
+
+# Semesteroppgave 5
+
+## Natursyn og moderne biologi
+
+Det teleologiske og det mekanistiske synet på naturen representerer ulike natursyn. Gjør kort rede for de to natursynene, og drøft hvilket av de to du mener er best egnet til å forklare biologiske fenomener.
+
+Bruk Menneske, natur og samfunn, kapittel 5 og Finn R. Johannessen “Hvordan biologi skiller seg fra de fysiske vitenskapene, 2000, s. 1-16, som er en upublisert oversettelse (med ordforklaring) av Ernst Mayr «How Biology Differs from the Physical Sciences» i D. J. Depew & B.H. Weber (eds) Evolution at a Crossroad, Cambridge, Mass.: The MIT press, 1985, s. 43-62. og minst en av disse tekstene: Raymond Noble og Denis Noble Understanding living Systems, Cambridge: Cambridge University Press, 2023, s. 1-13 og Ragnar Fjelland «Om forholdet mellom fysikk og biologi», Norsk filosofisk tidsskrift, 2003, 27-38.
+
+\newpage
+
+# 1 Innledning
+
+I denne oppgaven vil jeg redegjøre for det teleologiske og det mekanistiske synet på naturen, og deretter drøfte hvilket av de to synene som er best egnet til å forklare biologiske fenomener. Jeg vil bruke Menneske, natur og samfunn, kapittel 5, samt Finn R. Johannessen sin oversettelse av Ernst Mayr sin tekst «How Biology Differs from the Physical Sciences» som grunnlag for redegjørelsen. I tillegg vil jeg trekke inn Ragnar Fjelland sin artikkel «Om forholdet mellom fysikk og biologi» for å styrke argumentasjonen min.
+
+Jeg vil først gå gjennom kjennetegn på det teleologiske verdensbildet, og forklare hvordan Aristoteles argumenterte for teleologien. Etterpå går jeg inn på overgangen til det mekanistiske verdenssynet, og betydningen Kopernikus, Galileo, Kepler og Newton hadde for overgangen til det nye verdenssynet ved deres bruk av empiri og matematikk.
+
+Deretter vil jeg drøfte hvordan det mekanistiske synet på naturen har blitt utfordret av moderne biologi, og hvordan det teleologiske synet kan gi en bedre forståelse av biologiske fenomener. Jeg vil også diskutere hvordan det teleologiske synet kan være relevant i dagens samfunn, og hvordan det kan bidra til en bedre forståelse av naturen og menneskets plass i den.
+
+# 2 Det teleologiske synet på naturen
+
+Det teleologiske synet på naturen er et syn som har røtter tilbake til antikken, og som har vært en viktig del av den vestlige filosofiske tradisjonen. Teleologi kommer fra det greske ordet "telos", som betyr "mål" eller "hensikt". Og selve ordet teleologi betyr "føremål" eller "formålsrettet". Teleologisk natursyn kan da beskrives som formålsrettet natursyn. Det teleologiske synet innebærer at naturen har en hensikt eller et mål, og at alt i naturen er rettet mot å oppnå dette målet. Dette synet ble først formulert av Aristoteles, som mente at alt i naturen har en iboende hensikt eller formål. Han argumenterte for at alt i naturen streber etter å realisere sin egen essens, og at dette er grunnen til at vi kan observere orden og struktur i naturen. [@anfinsen2013menneske, s 195-196]
+
+Aristoteles delte opp naturen i fire kategorier: substans, forandring, årsak og formål. Substans er det som eksisterer i seg selv, mens forandring er det som skjer med substansen. Årsak er det som får forandringen til å skje, og formål er det som substansen streber etter å oppnå. [@anfinsen2013menneske, s 196-198] Dette synet på naturen var en del av Aristoteles' filosofi, og ble senere adoptert av den katolske kirken under middelalderen.
+
+## 2.1 Kirken og det teleologiske verdensbildet
+
+Kirken så på Aristoteles' teleologiske syn som en bekreftelse på Guds eksistens, og mente at naturen var skapt av Gud med en hensikt. Dette synet ble videreført gjennom middelalderen, og ble en del av den katolske teologien. Kirken mente at naturen var en refleksjon av Guds vilje, og at alt i naturen hadde en hensikt. Dette synet førte til at vitenskapelig utvikling ble sett på som en trussel mot kirkens makt, og enhver som utfordret det teleologiske synet kunne bli sett på som en heretiker [^1]. [@anfinsen2013menneske, s 207]
+
+[^1]: Heretiker er en person som har en vranglære eller en oppfatning som strider mot den ortodokse troen, og som derfor blir sett på som en trussel mot kirken.
+
+## 2.2 Kosmologi
+
+Det teleologiske synet på naturen var også nært knyttet til Aristoteles' kosmologi, som var basert på geosentrisme. Dette innebar at jorden var i sentrum av universet, og at alt annet beveget seg rundt jorden. Aristoteles mente at det var fem elementer som alt var bygget opp av: jord, vann, luft, ild og eter. Disse elementene hadde en naturlig plass i universet, og alt i naturen strebet etter å oppnå sin iboende hensikt. [@anfinsen2013menneske, s 206]
+
+For å forstå hvordan det teleologiske synet på naturen ble utfordret, er det viktig å se på hvordan dette synet ble endret av de vitenskapsmennene som kom etter Aristoteles. Dette skjedde i løpet av renessansen og opplysningstiden, hvor nye ideer og metoder ble utviklet for å forstå naturen.
+
+# 3 Det mekanistiske synet på naturen
+
+Det mekanistiske synet på naturen er et syn som har røtter tilbake til renessansen, og som har vært en viktig del av den moderne vitenskapelige tradisjonen. Dette synet innebærer at naturen kan forstås som en maskin, og at alt i naturen kan forklares med fysiske lover og matematiske modeller.Det mekanistiske synet ble utviklet av blant annet Copernicus, Galileo, Newton og Kepler, som alle bidro til å endre måten vi ser på naturen. 
+
+## 3.1 Copernicus
+
+Copernicus utviklet en heliosentrisk modell av solsystemet, hvor solen er i sentrum og planetene beveger seg rundt solen. Dette var en radikal endring fra det geosentriske synet som hadde vært dominerende i mange århundrer. [@anfinsen2013menneske, s 208]
+
+## 3.2 Galileo
+
+Galileo Galilei var en av de første som brukte eksperimenter for å teste sine hypoteser, og han utviklet en ny metode for å forstå naturen. Han mente at matematikk var naturens språk, og at vi måtte bruke matematikk for å forstå naturen. Han utførte eksperimenter med fallende legemer, og fant at tunge objekter falt like fort som lette objekter [@anfinsen2013menneske, s 217]. Han hjalp også Copernicus med å bekrefte den heliosentriske modellen ved å observere månen og planetene med teleskopet, og oppdaget at Venus hadde faser, noe som ikke kunne forklares med det geosentriske synet. [@anfinsen2013menneske, s 214]
+
+## 3.3 Newton
+
+Isaac Newton utviklet tre lover om bevegelse og gravitasjon, som forklarte hvordan planetene beveget seg rundt solen. Han viste at den samme kraften som fikk et eple til å falle ned fra et tre, også var den samme kraften som holdt planetene i bane rundt solen. Dette var en videreutvikling av Copernicus sin heliosentriske modell. [@anfinsen2013menneske, s 211-212]
+
+Newtons lov for gravitasjon kan skrives som:
+
+$$
+F = G \frac{m_1 m_2}{r^2}
+$$ 
+
+hvor $F$ er kraften mellom to legemer, $G$ er gravitasjonskonstanten, $m_1$ og $m_2$ er massene til legemene, og $r$ er avstanden mellom dem.
+
+Newtons lover for bevegelse og gravitasjon gjorde det mulig å forstå naturen på en ny måte, og dette førte til en vitenskapelig revolusjon. Han viste at naturen kunne forstås som en maskin, og at alt i naturen kunne forklares med fysiske lover og matematiske modeller. [@anfinsen2013menneske, s 211-212]
+
+## 3.4 Kepler
+
+Johannes Kepler utviklet tre lover om planetenes bevegelse, hvor den første loven sier at planetene beveger seg i ellipser rundt solen, den andre loven sier at en planet beveger seg raskere jo nærmere den er solen, og den tredje loven sier at planetenes omløpstid er proporsjonal med avstanden fra solen. [@anfinsen2013menneske, s 214-215] Dette var en videreutvikling av Copernicus sin heliosentriske modell, hvor Copernicus fortsatt ikke hadde klart å kvitte seg med at planetene beveget seg i perfekte sirkler. Kepler viste at planetene beveget seg i ellipser, og at dette kunne forklares med fysiske lover. [@anfinsen2013menneske, s 214-215]
+
+# 4 Teleologi og moderne biologi
+
+
+# 5 Mekanistisk syn og biologi
+
+
+# 6 Diskusjon
+
+\newpage
+
+## Appendix KI
+
+\newpage
+
+## Litteraturliste
