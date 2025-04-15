@@ -68,17 +68,7 @@ Ordgrense: 1800-2200 ord, inkludert fotnoter, men ikke inkludert innholdsfortegn
 
 Oppgaveteksten skal i sin helhet diskuteres i semesteroppgaven. Så lenge oppgaveteksten besvares, er det en viss frihet til å sette søkelys på utvalgte tema.
 
-1.4 Layout
-
-Valg av layout, slik som forside, seksjonsoverskrifter og avsnittsstil vil normalt ikke tillegges noen vekt i vurderingen av semesteroppgaven.
-
 3 Utfyllende om kvalitetstegn ved eksamensbesvarelser
-
-Her følger en nærmere beskrivelse av egenskaper som er relevante for kvaliteten til semesteroppgaven.
-
-3.1 Språk
-
-Godt, tilgjengelig og presist språk, korrekt rettskriving og grammatikk, samt flyt i fremstillingen forventes.
 
 3.2 Litteratur- og kunnskapstilfang
 
@@ -142,7 +132,7 @@ For å forstå hvordan det teleologiske synet på naturen ble utfordret, er det 
 
 # 3 Det mekanistiske synet på naturen
 
-Det mekanistiske synet på naturen er et syn som har røtter tilbake til renessansen, og som har vært en viktig del av den moderne vitenskapelige tradisjonen. Dette synet innebærer at naturen kan forstås som en maskin, og at alt i naturen kan forklares med fysiske lover og matematiske modeller.Det mekanistiske synet ble utviklet av blant annet Copernicus, Galileo, Newton og Kepler, som alle bidro til å endre måten vi ser på naturen. 
+Det mekanistiske synet på naturen er et syn som har røtter tilbake til renessansen, og som har vært en viktig del av den moderne vitenskapelige tradisjonen. Dette synet innebærer at naturen kan forstås som en maskin, og at alt i naturen kan forklares med fysiske lover og matematiske modeller. Det mekanistiske synet ble utviklet av blant annet Copernicus, Galileo, Newton og Kepler, som alle bidro til å endre måten vi ser på naturen. 
 
 ## 3.1 Copernicus
 
@@ -170,7 +160,11 @@ Newtons lover for bevegelse og gravitasjon gjorde det mulig å forstå naturen p
 
 Johannes Kepler utviklet tre lover om planetenes bevegelse, hvor den første loven sier at planetene beveger seg i ellipser rundt solen, den andre loven sier at en planet beveger seg raskere jo nærmere den er solen, og den tredje loven sier at planetenes omløpstid er proporsjonal med avstanden fra solen. [@anfinsen2013menneske, s 214-215] Dette var en videreutvikling av Copernicus sin heliosentriske modell, hvor Copernicus fortsatt ikke hadde klart å kvitte seg med at planetene beveget seg i perfekte sirkler. Kepler viste at planetene beveget seg i ellipser, og at dette kunne forklares med fysiske lover. [@anfinsen2013menneske, s 214-215]
 
+Med disse vitenskapsmennene gikk naturvitenskapen fra å være en del av filosofien til å bli en selvstendig vitenskap. Dette førte til at det mekanistiske synet på naturen ble dominerende, og at det teleologiske synet ble utfordret, og eventuelt til slutt forkastet. Videre vil jeg drøfte hvordan det mekanistiske natursynet har blitt utfordret av moderne biologi, og se hvordan det teleologiske natursynet kan fortsatt være relevant i dagens moderne samfunn.
+
 # 4 Teleologi og moderne biologi
+
+Ernst Mayr 
 
 
 # 5 Mekanistisk syn og biologi
